@@ -31,7 +31,27 @@ hr {
 
 }
 
+nav {
+    border-bottom: 1px solid black;
 
+}
+
+.crumbs ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
 
 
 
@@ -48,5 +68,30 @@ h1{
 
 h2{
  color: #66BFBF;
+
+}
+
+a{
+   color: #66BFBF;
+}
+
+.divisore_centrale{
+     margin: auto;
+      width: 40%;
+      height: 30%;
+      background-color: #EAF6F6;
+      display: flex;
+      flex-direction: column;
+
+
+}
+
+.divisore_centrale p {
+      margin: auto;
+      border: none;
+      background-color: EAF6F6;
+      display: flex;
+      flex-direction: column;
+
 
 }
